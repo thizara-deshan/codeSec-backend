@@ -11,8 +11,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "http://localhost:3000", // Allow only this origin
-    credentials: true, // Allow cookies to be sent with requests
+    origin: "https://code-sec-frontend.vercel.app",
+    credentials: true,
   })
 );
 
